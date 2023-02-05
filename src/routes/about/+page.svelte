@@ -8,10 +8,12 @@
         <div class="p1">
             <p>Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Nam aliquam sem et tortor. Accumsan tortor posuere ac ut. Eget est lorem ipsum dolor sit. Turpis nunc eget lorem dolor sed. Dis parturient montes nascetur ridiculus. Senectus et netus et malesuada. Justo nec ultrices dui sapien eget mi. Interdum posuere lorem ipsum dolor sit amet. Facilisi cras fermentum odio eu feugiat. Sit amet porttitor eget dolor. Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo. Dictumst quisque sagittis purus sit amet volutpat. Pharetra massa massa ultricies mi quis.</p>
         </div>
+        <p class="decoration">”DIE WITH MEMORIES, NOT DREAMS”</p>
         <div class="p2">
-            <img src="images/about1.JPG" alt="about1">
+            <img src="images/about1.JPG" alt="about1" draggable="false">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Amet aliquam id diam maecenas ultricies mi eget mauris. Enim ut tellus elementum sagittis. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Eget nunc lobortis mattis aliquam. Egestas congue quisque egestas diam in arcu cursus euismod. Neque laoreet suspendisse interdum consectetur. Ornare massa eget egestas purus viverra accumsan in. In mollis nunc sed id semper risus in. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.</p>
         </div>
+        <p class="decoration1">”BE THE CHANGE THAT YOU WISH TO SEE IN THE WORLD.”</p>
     </div>
 </body>
 
@@ -20,7 +22,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
     body {
-        font-family: 'Reenie Beanie', cursive;
+        font-family: 'Playfair Display';
         color: white;
         margin: 0;
         width: 100%;
@@ -29,18 +31,35 @@
         background-color: rgb(8, 2, 16);
     }
 
+    .decoration, .decoration1 {
+        font-family: 'Reenie Beanie', cursive;
+        text-decoration: overline underline;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .decoration {
+        text-align: end;
+    }
+
+    .decoration1 {
+        text-align: center;
+    }
+
     .about {
         margin: 7vmin;
     }
 
     .p1 {
+        font-size: 16px;
         width: 80%;
     }
 
     .p2 {
+        font-size: 16px;
         display: flex;
         justify-content: center;
-        margin-top: 10vmin;
+        margin-top: 5vmin;
         gap: 5vmin;
     }
 
