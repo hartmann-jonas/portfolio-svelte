@@ -12,16 +12,16 @@
         <div class="card" data-status={cardStatus} style="background-image: url(images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);">
             <p>lollapalooza - berlin 2022</p>
         </div>
-        <div class="card" data-status={cardStatus}>
+        <div class="card" data-status={cardStatus} style="background-image: url(images/spencer-davis-naFHFLV5cqU-unsplash.jpg);">
             <p>lorem ipsum - europe tour 2021</p>
         </div>
-        <div class="card" data-status={cardStatus}>
+        <div class="card" data-status={cardStatus} style="background-image: url(images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);">
             <p>massa tincidunt - world tour 2022</p>
         </div>
-        <div class="card" data-status={cardStatus}>
+        <div class="card" data-status={cardStatus} style="background-image: url(images/muneeb-syed-4_M8uIfPEZw-unsplash.jpg);">
             <p>bell - quebec 2020</p>
         </div>
-        <div class="card" data-status={cardStatus}>
+        <div class="card" data-status={cardStatus} style="background-image: url(images/colin-lloyd-RpK45xkkJ9o-unsplash.jpg);">
             <p>electra - tour 2023</p>
         </div>
     </div>
@@ -80,14 +80,14 @@
         }
 
         .card:nth-child(2) {
-            background-image: url(images/spencer-davis-naFHFLV5cqU-unsplash.jpg);
+            /*background-image: url(images/spencer-davis-naFHFLV5cqU-unsplash.jpg);*/
             background-size: contain;
             aspect-ratio: 6299 / 4199;
             transform: translate(-80%, -4%) rotate(-3deg);
         }
 
         .card:nth-child(3) {
-            background-image: url(images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);
+            /*background-image: url(images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg);*/
             background-size: contain;
             aspect-ratio: 5184 / 3456;
             transform: translate(70%, -140%) rotate(-2deg);
@@ -95,7 +95,7 @@
         }
 
         .card:nth-child(4) {
-            background-image: url(images/muneeb-syed-4_M8uIfPEZw-unsplash.jpg);
+            /*background-image: url(images/muneeb-syed-4_M8uIfPEZw-unsplash.jpg);*/
             background-size: cover;
             width: 35vmin;
             aspect-ratio: 2054 / 2738;
@@ -104,7 +104,7 @@
         }
 
         .card:nth-child(5) {
-            background-image: url(images/colin-lloyd-RpK45xkkJ9o-unsplash.jpg);
+            /*background-image: url(images/colin-lloyd-RpK45xkkJ9o-unsplash.jpg);*/
             background-size: contain;
             width: 35vmin;
             aspect-ratio: 2054 / 2738;
