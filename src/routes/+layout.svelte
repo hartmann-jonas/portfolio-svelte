@@ -1,9 +1,17 @@
+<script>
+    import Icon from 'svelte-awesome' 
+    import instagram from 'svelte-awesome/icons/instagram'
+    import linkedin from 'svelte-awesome/icons/linkedin'
+    import twitter from 'svelte-awesome/icons/twitter'
+    import code from 'svelte-awesome/icons/code'
+</script>
+
 <nav>
-    <p><a href="/"> Jonas Hartmann</a></p>
+    <p><a href="/"> JONAS HARTMANN</a></p>
     <div class="links">
-        <p><a href="/about">about</a></p>
-        <p><a href="/">work</a></p>
-        <p><a href="/">contact</a></p>
+        <p><a href="/about">ABOUT</a></p>
+        <p><a href="/work">WORK</a></p>
+        <p><a href="/">CONTACT</a></p>
     </div>
 </nav>
 
@@ -12,21 +20,22 @@
 <footer>
     <div class="top">
         <p class="name">Jonas Hartmann</p>
-        <p class="design">designed with love using svelte</p>
+        <p class="design">designed with love using svelte <Icon data={code} scale="0.5" class="icon"/></p>
     </div>
     <div class="bottom">
         <div class="contact">
             <p>+49 123 3414524</p>
-            <p>contact@jonashartmann.com</p>
+            <p>contact@jonashartmann.live</p>
+            <a href="mailto:contact@jonashartmann.live">Send me a mail</a>
         </div>
         <div class="address">
             <p>Musterstraße 123</p>
             <p>63165 Mühlheim</p>
         </div>
         <div class="socials">
-            <p><a href="/">Instagram</a></p>
-            <p><a href="/">LinkedIn</a></p>
-            <p><a href="/">Twitter</a></p>
+            <p><a href="/"><Icon data={instagram} scale=0.75 style="padding-right: 5px"/> Instagram</a></p>
+            <p><a href="/"><Icon data={linkedin} scale=0.75 style="padding-right: 5px"/> LinkedIn</a></p>
+            <p><a href="/"><Icon data={twitter} scale=0.75 style="padding-right: 5px"/> Twitter</a></p>
         </div>
     </div>
 </footer>
@@ -41,13 +50,13 @@
         text-decoration: none;
     }
 
-    .links a:hover {
+    .links a:hover, footer a:hover {
         transition: 300ms;
         color: rgb(107, 107, 107);
     }
 
     /* styles for navbar when screen wider than 400px */
-    @media (min-width: 400px) {
+    @media (min-width: 420px) {
         nav {
             width: 100%;
             font-family: 'Playfair Display', serif;
@@ -75,7 +84,7 @@
     }
 
     /* styles for navbar for screens up to 400px width */
-    @media (max-width: 400px) {
+    @media (max-width: 420px) {
         nav {
             width: 100%;
             font-family: 'Playfair Display', serif;
