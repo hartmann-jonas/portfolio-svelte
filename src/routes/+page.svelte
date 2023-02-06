@@ -8,9 +8,8 @@
 </script>
 
 <body>
-    <img src="images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg" alt="about1" draggable="false">
     <div class="cards">
-        <div class="card" data-status={cardStatus}>
+        <div class="card" data-status={cardStatus} style="background-image: url(images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);">
             <p>lollapalooza - berlin 2022</p>
         </div>
         <div class="card" data-status={cardStatus}>
@@ -74,7 +73,7 @@
         }
 
         .card:nth-child(1) {
-            background-image: url(images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+            /*background-image: url(images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);*/
             aspect-ratio: 3909 / 2932;
             background-size: contain;
             transform: translate(-90%, -120%) rotate(2deg);
