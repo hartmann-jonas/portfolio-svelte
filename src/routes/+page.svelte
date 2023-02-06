@@ -8,6 +8,7 @@
 </script>
 
 <body>
+    <img src="images/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg" alt="about1" draggable="false">
     <div class="cards">
         <div class="card" data-status={cardStatus}>
             <p>lollapalooza - berlin 2022</p>
