@@ -6,6 +6,17 @@
     import code from 'svelte-awesome/icons/code'
 </script>
 
+<svelte:head>
+    <!--
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="cyan" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+-->
+<meta name="theme-color" content="#0802104e">
+
+</svelte:head>
+
 <nav>
     <p><a href="/"> JONAS HARTMANN</a></p>
     <div class="links">
@@ -153,6 +164,7 @@
     /* styles for footer with screens up to 800px width */
     @media (max-width: 920px) {
         footer {
+            padding-top: 10vmin;
             width: 100%;
             font-family: 'Playfair Display', serif;
             color: white;
